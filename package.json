@@ -1,0 +1,39 @@
+{
+	"name": "@devteks/queue",
+	"version": "0.0.1",
+	"description": "Fast Queue implementation in javascript",
+	"license": "MIT",
+	"repository": "github:mosamuhana/queue",
+	"author": {
+		"name": "Mosa Muhana <mosamuhana@gmail.com>",
+		"url": "https://github.com/mosamuhana"
+	  },
+	"homepage": "https://github.com/mosamuhana/queue",
+	"bugs": {
+		"url": "https://github.com/mosamuhana/queue/issues"
+	},
+	"funding": "https://github.com/mosamuhana/queue?sponsor=1",
+	"engines": {
+		"node": ">=12.0.0"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"queue",
+		"fast queue",
+		"enqueue",
+		"dequeue"
+	],
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "publish": "npm publish --access public"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
