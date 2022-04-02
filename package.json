@@ -1,6 +1,6 @@
 {
 	"name": "@devteks/queue",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Fast Queue implementation in javascript",
 	"license": "MIT",
 	"repository": "github:mosamuhana/queue",
